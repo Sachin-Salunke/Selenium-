@@ -1,3 +1,5 @@
+Day 1
+
 Test Case-1
 --------------------
 1.Open a browser
@@ -6,3 +8,6 @@ Test Case-1
 4.Enter Password
 5.Click on ok
 6.Check the page title
+7.Check title of login page with conditions like testcase pass or failed.
+
+===================================================================================
