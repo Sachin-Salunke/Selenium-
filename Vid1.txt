@@ -1,0 +1,8 @@
+Test Case-1
+--------------------
+1.Open a browser
+2.Open URL(https://newtours.demoaut.com/)
+3.Enter User name
+4.Enter Password
+5.Click on ok
+6.Check the page title
