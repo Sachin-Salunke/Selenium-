@@ -13,7 +13,7 @@ public class SampleTwo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdeiver.chrome.driver", "c:\\\\chromedriver\\\\chromedriver.exe");
+		System.setProperty("webdeiver.chrome.driver", "c:\\chromedriver\\chromedriver.exe");
 		
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://demo.guru99.com/test/newtours/");

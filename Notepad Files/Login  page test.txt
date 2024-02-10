@@ -11,3 +11,11 @@ Test Case-1
 7.Check title of login page with conditions like testcase pass or failed.
 
 ===================================================================================
+Web page Elements
+Texfield
+Password filed
+Buttons
+Redio Buttons
+check boxs
+links
+alerts

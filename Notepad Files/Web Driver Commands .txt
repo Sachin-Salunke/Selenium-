@@ -1,0 +1,38 @@
+Day 3
+------
+Webdriver Commands
+------------------------
+
+1. Browser Commands
+ Close()
+ Quit()
+
+2. Get methods
+get()
+getTitle()
+getPageSaurce()
+getCurrentUrl()
+getText()
+
+
+3.Conditional Commands
+isDisplayed()
+isEnabled()
+isSelected()
+ 
+4.Navigation Commands
+navigate().forward()
+navigate().back()
+navigate().to()
+navigate().refresh()
+
+5.wait Commands
+implicitwait
+Explicitwait
+
+6.Switch Commands
+swtchTo().frame()
+switchTo().alert()
+switchTo().defaultContent()
+switchTo().window()
+Driver.WindowHandles()

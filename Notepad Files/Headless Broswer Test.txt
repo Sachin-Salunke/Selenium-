@@ -1,0 +1,25 @@
+Day 2
+------
+
+Headless Browser
+----------------
+Headless browser means the using selenium options to test a web page without opening browser that is called headless browser.
+
+Not seeing any UI. ut backgroud operations is done.
+
+Code-public static void main(String[] args) {
+		//Headless browser
+		System.setProperty("webdriver.chrome.driver", "c:\\\\chromedriver\\\\chromedriver.exe");
+		
+		ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+		
+		
+		ChromeDriver driver=new ChromeDriver(options);
+		driver.get("https://www.google.com");
+		
+		//driver.findElement(By.xpath("")).sendKeys("Algorithm");
+		
+		System.out.println("Title the page: "+driver.getTitle());
+		
+		driver.close();
