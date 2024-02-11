@@ -1,0 +1,33 @@
+Day 4
+------
+
+Locators 
+---------
+id 
+name
+linktext
+cssselector
+xpath
+
+
+Selenium IDE :
+-> A component of selenium(record and playback tool)
+-> plug in for firefox browser
+
+
+CSS Selector
+------------
+
+tag & id 
+---------
+
+driver.findElement(By.cssSelector("input#email")).sendkeys();
+
+<input id="email" class="inputtext" type="email" data-testid="royal_email" tabintex="1" value="" name"email"
+
+tag & Class
+------------
+
+driver.inputElement(By.cssSelector("input & inputtext").sendkeys();
+
+
