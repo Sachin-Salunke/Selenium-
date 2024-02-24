@@ -12,19 +12,20 @@ public class ConditionalCommand {
 		System.setProperty("webdriver.chrome.driver", "c://chromedriver//chromedriver.exe");
 		
 		ChromeDriver driver=new ChromeDriver();
-		driver.get("https://www.facebook.com/signup");
+		driver.get("https://facebook.com");
 		
 		
-		WebElement firstName=driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div[2]/div/div[2]/div/div/div[1]/form/div[1]/div[1]/div[1]/div[1]/div/div[1]/input"));
-		WebElement pass=driver.findElement(By.xpath("//*[@id=\"u_0_d_lG\"]"));
+		WebElement email=driver.findElement(By.xpath("//*[@id=\"u_6_b_Vy\"]"));
+		WebElement pass=driver.findElement(By.xpath("//*[@id=\"u_6_d_hU\"]"));
 		
-		if(firstName.isDisplayed()&& firstName.isEnabled())
+		if(email.isDisplayed()&& email.isEnabled())
 		{
-			firstName.sendKeys("MarkZukesrburg@gmail.com");
+			email.sendKeys("MarkZukesrburg@gmail.com");
 		}
 		if(pass.isDisplayed() && pass.isEnabled())
 		{
 			pass.sendKeys("123456789");
+			
 		}
 
 	}

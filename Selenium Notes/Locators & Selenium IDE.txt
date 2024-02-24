@@ -30,4 +30,17 @@ tag & Class
 
 driver.inputElement(By.cssSelector("input & inputtext").sendkeys();
 
+tag with attribute 
+-------------------
+
+tag with class and attribute
+-----------------------------
+
+Xpath
+------
+1) Absolute Xpath - Complete / full address of the element in the web page (complete xpath)
+   Ex-/html/body/div[1]/div[1]/div/main/div[1]/div[2]/form/div/div/div/textarea
+
+2) Relative Xpath - Partial address of the element is the web page(Partial Xpath)
+   Ex-//*[@id="prompt-textarea"]
 
